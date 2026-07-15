@@ -1,0 +1,390 @@
+{
+  "header": {
+    "seq": 1,
+    "prevCheckpointHash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "merkleRoot": "e5c4e746a428b00e696cc261a8c484b4768b2bc3ad58057c989678969f6c9049",
+    "checkpointHash": "be661902e919fed8da57cee75857ad3699be26ac881b040db14d169f1690acae",
+    "eventCount": 37,
+    "counts": {
+      "donation": 19,
+      "transition": 6,
+      "disbursement": 8,
+      "report": 2,
+      "return": 2
+    },
+    "window": {
+      "fromExclusiveMillis": 0,
+      "toInclusiveMillis": 1784074078589
+    }
+  },
+  "events": [
+    {
+      "kind": "donation",
+      "id": "donation:5NrYKBC2N8imim31XtTO",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783699017251
+    },
+    {
+      "kind": "donation",
+      "id": "donation:8QJA1O6AN7ogG8MZNI51",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783699144652
+    },
+    {
+      "kind": "donation",
+      "id": "donation:mqbvmJjWSCuuOflNho8m",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 350,
+      "paymentMethod": "manual_bank",
+      "status": "pending",
+      "occurredAt": 1783706785527
+    },
+    {
+      "kind": "donation",
+      "id": "donation:ttd06oZCHggbyjp0S3Ba",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783789754862
+    },
+    {
+      "kind": "donation",
+      "id": "donation:7Rf6QT04dKCkZWooIWKo",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783789759897
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:ttd06oZCHggbyjp0S3Ba:refunded",
+      "ref": "donation:ttd06oZCHggbyjp0S3Ba",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783789791414
+    },
+    {
+      "kind": "donation",
+      "id": "donation:AvFy52rBFQABE7GVfbux",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783791472726
+    },
+    {
+      "kind": "donation",
+      "id": "donation:Zebg6LG4IOmb6HZtcizi",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783791477533
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:WyLIaL09k1W8cSRS7MR0",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783791493993
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:AvFy52rBFQABE7GVfbux:refunded",
+      "ref": "donation:AvFy52rBFQABE7GVfbux",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783791515161
+    },
+    {
+      "kind": "donation",
+      "id": "donation:nuSsc03RFOeQYWIK2Od0",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783805805365
+    },
+    {
+      "kind": "donation",
+      "id": "donation:i4wnxj1OCIm1zeT2tC1w",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783805808772
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:QoqStq7r1xsbJvDWw4JA",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783805818586
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:nuSsc03RFOeQYWIK2Od0:refunded",
+      "ref": "donation:nuSsc03RFOeQYWIK2Od0",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783805829395
+    },
+    {
+      "kind": "donation",
+      "id": "donation:lEojg9sUpTfbisWlnL0R",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783811509887
+    },
+    {
+      "kind": "donation",
+      "id": "donation:nwfFUytDwxxoqlhKOrhT",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783811513713
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:oI3NYgWNwaqdpppZVqWI",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783811526519
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:lEojg9sUpTfbisWlnL0R:refunded",
+      "ref": "donation:lEojg9sUpTfbisWlnL0R",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783811541910
+    },
+    {
+      "kind": "donation",
+      "id": "donation:Nm0W4Uq8fyN1FXzXrNNV",
+      "campaignId": "qMQ7qtJtlC4oqgaTk7Z3",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783872626955
+    },
+    {
+      "kind": "donation",
+      "id": "donation:vXs2a1FIVsKSE27PKvhu",
+      "campaignId": "XO6twnA1i2FLrqTXyoC2",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783881231019
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:RtcaUMty44EkWnC1c9Sj",
+      "campaignId": "XO6twnA1i2FLrqTXyoC2",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "occurredAt": 1783899676057
+    },
+    {
+      "kind": "donation",
+      "id": "donation:pHJzfR35q8NFpTlWqQDR",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783944958521
+    },
+    {
+      "kind": "donation",
+      "id": "donation:v03m3MyEml3nHCFHtrQd",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783944962306
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:nXsOzD85HTFwH187tvM7",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783944978455
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:pHJzfR35q8NFpTlWqQDR:refunded",
+      "ref": "donation:pHJzfR35q8NFpTlWqQDR",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783944996280
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:VKL45qewiIyuGwmdETUI",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 0,
+      "occurredAt": 1783945508531
+    },
+    {
+      "kind": "donation",
+      "id": "donation:iZc2wc2ZBI34Dv0xBFa0",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783964476045
+    },
+    {
+      "kind": "donation",
+      "id": "donation:tzv2IezDabbUeSrmxTem",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 3000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1783964479675
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:9a1eA9FBn4DtlSH8njKO",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783964493444
+    },
+    {
+      "kind": "return",
+      "id": "return:hVxWz3UdPFsa6RCS3vCk",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 200,
+      "occurredAt": 1783964499378
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:iZc2wc2ZBI34Dv0xBFa0:refunded",
+      "ref": "donation:iZc2wc2ZBI34Dv0xBFa0",
+      "from": "confirmed",
+      "to": "refunded",
+      "occurredAt": 1783964508349
+    },
+    {
+      "kind": "donation",
+      "id": "donation:kEHl8E1zNlUmbUhXyykW",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783964592798
+    },
+    {
+      "kind": "donation",
+      "id": "donation:hqACSqJo5Pt2KRrTTKb8",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 5000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1783964604904
+    },
+    {
+      "kind": "disbursement",
+      "id": "disbursement:rXBYBbpSgPCiuEo4DqOj",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 2000,
+      "occurredAt": 1783964610122
+    },
+    {
+      "kind": "report",
+      "id": "report:e7eGs0LNopzRKrfErVV5",
+      "disbursementId": "rXBYBbpSgPCiuEo4DqOj",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "reportType": "interim",
+      "totalSYP": 800,
+      "unspentReturnSYP": 0,
+      "lineItems": [
+        {
+          "vendorAr": "مخبز الأمل",
+          "vendorEn": "Al-Amal Bakery",
+          "amountSYP": 800,
+          "categoryId": "food_supplies",
+          "date": 1783900800000,
+          "isUnreceipted": true
+        }
+      ],
+      "occurredAt": 1783965988605
+    },
+    {
+      "kind": "return",
+      "id": "return:aKyDmpewIYRRdt3k2Nuz",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 200,
+      "occurredAt": 1783966267650
+    },
+    {
+      "kind": "report",
+      "id": "report:aKyDmpewIYRRdt3k2Nuz",
+      "disbursementId": "rXBYBbpSgPCiuEo4DqOj",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "reportType": "final",
+      "totalSYP": 1000,
+      "unspentReturnSYP": 200,
+      "lineItems": [
+        {
+          "vendorAr": "صيدلية الشفاء",
+          "vendorEn": "Al-Shifa Pharmacy",
+          "amountSYP": 700,
+          "categoryId": "medical",
+          "date": 1783966262697,
+          "isUnreceipted": false
+        },
+        {
+          "vendorAr": "نقل الأمانة",
+          "vendorEn": "Al-Amana Transport",
+          "amountSYP": 300,
+          "categoryId": "transport_logistics",
+          "date": 1783966262697,
+          "isUnreceipted": true
+        }
+      ],
+      "occurredAt": 1783966267720
+    }
+  ]
+}
