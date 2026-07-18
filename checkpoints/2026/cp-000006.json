@@ -1,0 +1,32 @@
+{
+  "header": {
+    "seq": 6,
+    "prevCheckpointHash": "affcf61b9780dd0d9570af1540808184257aaffb917a50faa08489736a8b772b",
+    "merkleRoot": "56c8c43e68401a9aa17cdadf14d76a4a2309d7fd76a73369a40b34df93929a3d",
+    "checkpointHash": "c89bea067c6acdce6c1ab4a8f8e7044fbac3b00917f62115c6a6bc43d75bfcb7",
+    "eventCount": 1,
+    "counts": {
+      "donation": 1,
+      "transition": 0,
+      "disbursement": 0,
+      "report": 0,
+      "return": 0
+    },
+    "window": {
+      "fromExclusiveMillis": 1784329504782,
+      "toInclusiveMillis": 1784415905254
+    }
+  },
+  "events": [
+    {
+      "kind": "donation",
+      "id": "donation:0FMQ2hztNM7oRClzHnFN",
+      "campaignId": "test-campaign-001",
+      "charityId": "test-charity-001",
+      "amountSYP": 250,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1784380466152
+    }
+  ]
+}
