@@ -1,0 +1,110 @@
+{
+  "header": {
+    "seq": 8,
+    "prevCheckpointHash": "bb12be9e5c2ec8fa01816547177e3b560f1de35c3d63d9c2fc83c414ccad950a",
+    "merkleRoot": "81140f58739c43960bcd9ea68964efa1426dd17c88aea90fdf97c55d3afdc5f5",
+    "checkpointHash": "ca91f7be7504dcc6f0ed87e9ddd767c4443b1d534702349013d932c7cc93b6e3",
+    "eventCount": 9,
+    "counts": {
+      "donation": 8,
+      "transition": 1,
+      "disbursement": 0,
+      "report": 0,
+      "return": 0
+    },
+    "window": {
+      "fromExclusiveMillis": 1784502304657,
+      "toInclusiveMillis": 1784588704432
+    }
+  },
+  "events": [
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0035",
+      "campaignId": "demo-cmp-food",
+      "charityId": "test-charity-001",
+      "amountSYP": 200000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1784508187241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0025",
+      "campaignId": "demo-cmp-medical",
+      "charityId": "test-charity-001",
+      "amountSYP": 150000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1784514019241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0026",
+      "campaignId": "demo-cmp-medical",
+      "charityId": "test-charity-001",
+      "amountSYP": 900000,
+      "paymentMethod": "syrian_gateway",
+      "status": "confirmed",
+      "occurredAt": 1784520067241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0044",
+      "campaignId": "demo-cmp2-livelihood",
+      "charityId": "demo-charity-002",
+      "amountSYP": 250000,
+      "paymentMethod": "partner_cash",
+      "status": "confirmed",
+      "occurredAt": 1784520067241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0019",
+      "campaignId": "demo-cmp-orphans",
+      "charityId": "test-charity-001",
+      "amountSYP": 200000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1784524579241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0027",
+      "campaignId": "demo-cmp-medical",
+      "charityId": "test-charity-001",
+      "amountSYP": 200000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1784526115241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:demo-don-0028",
+      "campaignId": "demo-cmp-medical",
+      "charityId": "test-charity-001",
+      "amountSYP": 350000,
+      "paymentMethod": "partner_cash",
+      "status": "confirmed",
+      "occurredAt": 1784539939241
+    },
+    {
+      "kind": "donation",
+      "id": "donation:J6H8vnusLBZhN8uho8wS",
+      "campaignId": "XO6twnA1i2FLrqTXyoC2",
+      "charityId": "test-charity-001",
+      "amountSYP": 300,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1784545540363
+    },
+    {
+      "kind": "transition",
+      "id": "transition:donation:mqbvmJjWSCuuOflNho8m:confirmed",
+      "ref": "donation:mqbvmJjWSCuuOflNho8m",
+      "from": "pending",
+      "to": "confirmed",
+      "occurredAt": 1784545816092
+    }
+  ]
+}
