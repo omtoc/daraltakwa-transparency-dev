@@ -1,0 +1,82 @@
+{
+  "header": {
+    "seq": 12,
+    "prevCheckpointHash": "9482bc78d558b36554fac397bd38613edf073ce9070e84c0b34a6748dfb45e76",
+    "merkleRoot": "beaf919a85b31e9ef39188d65629d3a1ff432638c8da7f59ca3b816dbf9f651c",
+    "checkpointHash": "e1e8a332c85e92e8dbfb56fe0c4c2b361f0ad7c4297cd31a487e3db0cee2894f",
+    "eventCount": 6,
+    "counts": {
+      "donation": 6,
+      "transition": 0,
+      "disbursement": 0,
+      "report": 0,
+      "return": 0
+    },
+    "window": {
+      "fromExclusiveMillis": 1784847904877,
+      "toInclusiveMillis": 1784934304364
+    }
+  },
+  "events": [
+    {
+      "kind": "donation",
+      "id": "donation:ali-don-16",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 45000,
+      "paymentMethod": "partner_cash",
+      "status": "confirmed",
+      "occurredAt": 1784855076439
+    },
+    {
+      "kind": "donation",
+      "id": "donation:ali-don-17",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 70000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1784859519868
+    },
+    {
+      "kind": "donation",
+      "id": "donation:ali-don-18",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 35000,
+      "paymentMethod": "syrian_gateway",
+      "status": "confirmed",
+      "occurredAt": 1784863963296
+    },
+    {
+      "kind": "donation",
+      "id": "donation:ali-don-19",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 30000,
+      "paymentMethod": "manual_bank",
+      "status": "confirmed",
+      "occurredAt": 1784873590725
+    },
+    {
+      "kind": "donation",
+      "id": "donation:ali-don-20",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 173054,
+      "paymentMethod": "partner_cash",
+      "status": "confirmed",
+      "occurredAt": 1784878034153
+    },
+    {
+      "kind": "donation",
+      "id": "donation:EQtGMkDgp9S6EJTyiywN",
+      "campaignId": "demo-cmp-ali-surgery",
+      "charityId": "test-charity-001",
+      "amountSYP": 50000,
+      "paymentMethod": "wallet",
+      "status": "confirmed",
+      "occurredAt": 1784881930634
+    }
+  ]
+}
