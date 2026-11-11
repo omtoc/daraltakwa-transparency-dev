@@ -1,0 +1,21 @@
+{
+  "header": {
+    "seq": 122,
+    "prevCheckpointHash": "0ebc941996ed6f963b3a44454da066ebee6955ead0a7ee32089994b57dcad7d7",
+    "merkleRoot": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checkpointHash": "2c0838021c3538b4fe01edc01efdb480de538b92c9d450f62df327c93148dc9d",
+    "eventCount": 0,
+    "counts": {
+      "donation": 0,
+      "transition": 0,
+      "disbursement": 0,
+      "report": 0,
+      "return": 0
+    },
+    "window": {
+      "fromExclusiveMillis": 1794351905358,
+      "toInclusiveMillis": 1794438305632
+    }
+  },
+  "events": []
+}
